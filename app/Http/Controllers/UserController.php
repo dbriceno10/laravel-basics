@@ -19,7 +19,7 @@ class UserController extends Controller
     public function user(int $user_id): view
     {
         //mas o menos equivalente a un console log
-        dd($user_id);
+        // dd($user_id);
 
         // var_dump($userId);
         // die();
